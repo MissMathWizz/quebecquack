@@ -1,0 +1,146 @@
+[
+  {
+    "scenario": {
+      "name": "bright_daylight_integration",
+      "original_photo": "Family at beach in bright daylight",
+      "friend_photo": "Sarah in casual summer outfit",
+      "placement": "right",
+      "lighting_conditions": {
+        "brightness": 180,
+        "contrast": 0.8,
+        "color_temperature": 0.9,
+        "lighting_type": "direct_sunlight"
+      }
+    },
+    "success": true,
+    "quality_score": 0.7525969658895423,
+    "lighting_match_score": 0.7625604096569808,
+    "composition_score": 0.7532701638278337,
+    "realism_score": 0.7385922755541273,
+    "stage_results": {
+      "Friend extraction": {
+        "success": true,
+        "confidence": 0.7241382919783018,
+        "processing_time": 1.0793090399478236
+      },
+      "Mask generation": {
+        "success": true,
+        "confidence": 0.7532701638278337,
+        "processing_time": 2.3303414847898978
+      },
+      "Lighting analysis": {
+        "success": true,
+        "confidence": 0.7625604096569808,
+        "processing_time": 0.7973562970958249
+      },
+      "Integration inpainting": {
+        "success": true,
+        "confidence": 0.7385922755541273,
+        "processing_time": 1.3495997638853214
+      },
+      "Polaroid style application": {
+        "success": true,
+        "confidence": 0.7844236884304677,
+        "processing_time": 2.8669404529905473
+      }
+    },
+    "total_processing_time": 8.423547038709415,
+    "timestamp": "2025-08-26T15:11:07.299823"
+  },
+  {
+    "scenario": {
+      "name": "golden_hour_integration",
+      "original_photo": "Family portrait during golden hour",
+      "friend_photo": "Mark in business casual",
+      "placement": "left",
+      "lighting_conditions": {
+        "brightness": 160,
+        "contrast": 0.6,
+        "color_temperature": 0.7,
+        "lighting_type": "warm_golden"
+      }
+    },
+    "success": true,
+    "quality_score": 0.6801430212178273,
+    "lighting_match_score": 0.7545970047797996,
+    "composition_score": 0.6629978509888352,
+    "realism_score": 0.6237740326409447,
+    "stage_results": {
+      "Friend extraction": {
+        "success": true,
+        "confidence": 0.696444223973969,
+        "processing_time": 2.544843854472846
+      },
+      "Mask generation": {
+        "success": true,
+        "confidence": 0.6629978509888352,
+        "processing_time": 2.3623703022384284
+      },
+      "Lighting analysis": {
+        "success": true,
+        "confidence": 0.7545970047797996,
+        "processing_time": 0.9383568958648737
+      },
+      "Integration inpainting": {
+        "success": true,
+        "confidence": 0.6237740326409447,
+        "processing_time": 1.6362991046734487
+      },
+      "Polaroid style application": {
+        "success": true,
+        "confidence": 0.6629019937055881,
+        "processing_time": 1.1126570441732302
+      }
+    },
+    "total_processing_time": 8.594527201422826,
+    "timestamp": "2025-08-26T15:11:07.299860"
+  },
+  {
+    "scenario": {
+      "name": "indoor_mixed_integration",
+      "original_photo": "Family gathering in living room",
+      "friend_photo": "Emma in party dress",
+      "placement": "background",
+      "lighting_conditions": {
+        "brightness": 120,
+        "contrast": 0.5,
+        "color_temperature": 1.0,
+        "lighting_type": "mixed_indoor"
+      }
+    },
+    "success": false,
+    "quality_score": 0.0,
+    "lighting_match_score": 0.0,
+    "composition_score": 0.0,
+    "realism_score": 0.0,
+    "stage_results": {
+      "Friend extraction": {
+        "success": true,
+        "confidence": 0.5438966973656779,
+        "processing_time": 0.667495474092936
+      },
+      "Mask generation": {
+        "success": true,
+        "confidence": 0.5077412023297143,
+        "processing_time": 2.521850153079824
+      },
+      "Lighting analysis": {
+        "success": true,
+        "confidence": 0.5623904554637223,
+        "processing_time": 1.8000738593343768
+      },
+      "Integration inpainting": {
+        "success": false,
+        "confidence": 0.4560754104357576,
+        "processing_time": 2.724265048178556
+      },
+      "Polaroid style application": {
+        "success": false,
+        "confidence": 0.4811941401958687,
+        "processing_time": 1.1722962111078679
+      }
+    },
+    "total_processing_time": 8.88598074579356,
+    "timestamp": "2025-08-26T15:11:07.299875"
+  }
+]
